@@ -167,7 +167,7 @@ body::-webkit-scrollbar-thumb{
   background-color: rgb(41, 41, 41);
 }
 
-/* style section */
+/* style main */
 
 .main {
   width: 100%;
@@ -198,6 +198,7 @@ body::-webkit-scrollbar-thumb{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: #f1f1f1;
   font-size: 1rem;
@@ -208,6 +209,10 @@ body::-webkit-scrollbar-thumb{
   padding: 5px;
   width: 60px;
   height: 74px;
+}
+.container-aside a:hover{
+    background-color: rgb(94, 92, 92);
+    border-radius: 5px;
 }
 
 .container-aside a img {
