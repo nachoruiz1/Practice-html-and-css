@@ -4,6 +4,16 @@ body {
   background-color: rgb(8, 8, 8);
   font-family: "Quicksand", sans-serif;
 }
+body::-webkit-scrollbar{
+    width: 10px;
+    background: black;
+
+}
+body::-webkit-scrollbar-thumb{
+    background: rgb(138, 138, 138);
+    border-radius: 5px;
+    border-right: 2px solid black;
+}
 
 /* style nav */
 .navbar {
@@ -11,6 +21,8 @@ body {
   justify-content: space-around;
   margin: 0;
   width: 100%;
+  position: fixed;
+  background-color:rgb(8, 8, 8);
 }
 
 .navbar-left {
@@ -171,13 +183,15 @@ body {
   height: 100vh;
   width: 80px;
   background-color: transparent;
-  margin-top: 20px;
+  margin-top: 80px;
+  
 }
 
 .container-aside {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: fixed;
 }
 
 .container-aside a {
@@ -209,7 +223,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 5px;
   justify-items: center;
-  margin: 0 16px;
+  margin: 50px 0 16px 16px;
 }
 
 .container-section {
